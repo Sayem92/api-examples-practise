@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sport DB</title>
+    <!-- link bootstrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <style>
+       .player img{
+           width: 350px;
+           padding-right: 20px;  
+       }
+    .player{
+        width: 360px;
+        /* border: 2px solid gray; */
+        /* background-color: gray; */
+    }
+    .player h4{
+        padding-top: 10px;
+    }
+    .player button{
+        background-color: pink;
+        padding: 0px 10px;
+        margin-bottom: 10px;
+    }
+
+    .detail img{
+        width: 200px;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="text-center text-warning mb-4 mt-4">Exploring Player</h1>
+    </header>
+
+    <main>
+        <section class="container mt-4">
+            <h1 class="text-primary mb-4 mt-4">Player Details :-</h1>
+                <div id="detail-container" class="row row-cols-1 gap-2 mx-auto ">
+
+                </div>
+        </section>
+        <section class="container mt-4">
+            <h1 class="text-info mb-4 mt-4">Sports Players :-</h1>
+            <div id="sports-container" class="row row-cols-4 gap-3  ">
+
+            </div>
+        </section>
+    </main>
+
+
+     <!-- bootstrap -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="js/sport.js"></script>
+</body>
+</html>

@@ -26,7 +26,7 @@ const displayComment = (data)=>{
                    //Q-5
 
 const loadDetails = (postId) =>{
-        console.log(postId)
+        // console.log(postId)
         const url = `https://jsonplaceholder.typicode.com/comments?postId=${postId}`
         // console.log(url)
 
